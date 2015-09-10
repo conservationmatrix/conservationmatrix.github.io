@@ -1,0 +1,416 @@
+/* Layouts */
+.centered {
+  text-align: center;
+}
+
+.padded, .donate .project-section {
+  padding: 20px;
+}
+
+.margined, .donate .project-section {
+  margin: 20px 0;
+}
+
+.backgrounded, .donate .project-section {
+  background-color: #fafafa;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-weight: 600;
+}
+@media only screen and (max-width: 768px) {
+  h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+  }
+}
+
+.logo-center {
+  text-align: center;
+}
+.logo-center img {
+  height: 70px;
+  width: auto;
+}
+
+.header {
+  font-family: "Crimson Text", Georgia, "Times New Roman", serif;
+  font-weight: 400;
+  font-weight: 600;
+  height: 100px;
+  color: #fff;
+}
+.header .buttons-left {
+  text-align: right;
+}
+@media only screen and (max-width: 768px) {
+  .header .buttons-left {
+    text-align: center;
+  }
+}
+.header .buttons-right {
+  text-align: left;
+}
+@media only screen and (max-width: 768px) {
+  .header .buttons-right {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header {
+    height: auto;
+  }
+}
+.header a.link {
+  color: #fff;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 100px;
+  border-bottom: 1px solid transparent;
+}
+.header a.link.active {
+  border-bottom: 1px solid #bbbbbb;
+}
+.header a.link:hover {
+  text-decoration: none;
+  border-bottom: 1px solid #bbbbbb;
+}
+@media only screen and (min-width: 768px) {
+  .header a.link {
+    padding: 0 20px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .header a.link {
+    padding: 0 6.66667px;
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .header a.link {
+    line-height: 1.2em;
+    font-size: 20px;
+    display: block;
+  }
+  .header a.link:hover {
+    text-decoration: underline;
+    border-bottom-color: transparent;
+  }
+}
+.header a.home-link {
+  line-height: 100px;
+}
+.header a.home-link img {
+  vertical-align: middle;
+}
+
+@media only screen and (min-width: 768px) {
+  .section {
+    padding: 100px 0 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section {
+    padding: 50px 0 50px;
+  }
+}
+.section.left {
+  text-align: left;
+}
+.section.right {
+  text-align: right;
+}
+.section.bordered {
+  border-bottom: 1px solid #bbbbbb;
+}
+.section h2 {
+  font-size: 40px;
+}
+.section p {
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #32444f;
+  color: #fff;
+  padding-bottom: 20px;
+}
+.footer .row {
+  padding: 20px 0;
+}
+.footer a.link {
+  display: block;
+  color: #fff;
+}
+
+div.home div.top-section {
+  padding: 0;
+  color: #fff;
+  background-image: url(/images/home-top.jpg);
+  background-size: cover;
+  background-position: center;
+}
+div.home div.bottom-section {
+  color: #fff;
+  background-image: url(/images/home-bottom.jpg);
+  background-size: cover;
+  background-position: center;
+}
+div.home div.bottom-section h1 {
+  text-align: center;
+  font-size: 50px;
+}
+div.home div.bottom-section ul.participants {
+  margin: 40px 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+div.home div.bottom-section ul.participants li {
+  text-align: center;
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+@media only screen and (min-width: 768px) {
+  .focus {
+    padding: 150px 0 300px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .focus {
+    padding: 50px 0 50px;
+  }
+}
+.focus h1 {
+  font-size: 50px;
+  color: #fff;
+}
+.focus h5 {
+  font-size: 24px;
+  color: #bbbbbb;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+}
+
+.about .about-story {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.about .about-team {
+  text-align: center;
+  margin-top: 60px;
+}
+.about .people {
+  margin-top: 60px;
+}
+.about .people .row {
+  margin-bottom: 40px;
+}
+.about .person {
+  padding-top: 0;
+}
+.about .person h3 {
+  margin-top: 0;
+}
+.about .person h5 {
+  font-size: 16px;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 300;
+}
+.about .person a.profile-link {
+  display: block;
+  font-size: 2em;
+  float: right;
+}
+.about .person .headshot {
+  text-align: center;
+}
+.about .person .headshot img {
+  width: 50%;
+  height: auto;
+  margin-bottom: 20px;
+}
+.about .description {
+  border-top: 3px solid #32444f;
+  padding-top: 20px;
+  font-size: 18px;
+}
+.about .story {
+  font-size: 18px;
+}
+
+.develop .top-section {
+  background-image: url(/images/develop-top.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.develop .top-section .attribution {
+  position: absolute;
+  font-size: 0.8em;
+  bottom: 0;
+  right: 0;
+  color: #fff;
+}
+.develop .top-section h5 {
+  color: #ddd;
+}
+.develop .get-in-touch {
+  margin-top: 80px;
+}
+.develop .service {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.develop .service h5 {
+  font-size: 24px;
+  margin-top: 20px;
+}
+.develop i.service-icon {
+  display: block;
+  font-size: 36px;
+}
+
+.invest .top-section {
+  background-color: #32444f;
+}
+.invest .section {
+  padding-top: 0;
+}
+.invest h2 {
+  margin: 40px 0;
+}
+.invest h4 {
+  font-size: 26px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #32444f;
+  margin-bottom: 10px;
+}
+.invest .image {
+  height: 200px;
+  background-size: cover;
+  background-position: left center;
+}
+.invest .image .description {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 40px 20px;
+}
+.invest .image .description p {
+  line-height: 30px;
+  margin: 0;
+}
+@media only screen and (min-width: 768px) {
+  .invest .image .description {
+    display: none;
+  }
+  .invest .image:hover .description {
+    display: block;
+  }
+}
+.invest .timber .image {
+  background-image: url(/images/timber.png);
+}
+.invest .organic .image {
+  background-image: url(/images/organic.png);
+}
+.invest .urban .image {
+  background-image: url(/images/urban.png);
+}
+.invest .wetland .image {
+  background-image: url(/images/wetland.jpg);
+}
+
+.donate h2 {
+  margin: 20px 0;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #000;
+}
+.donate .donate-image {
+  width: 100%;
+  height: auto;
+}
+.donate .donate-button {
+  background-color: #e14030;
+  color: #fff;
+  border: 0 none;
+  width: 100%;
+  line-height: 2em;
+  margin-top: 5px;
+}
+.donate .project-section h3 {
+  margin-top: 0;
+}
+@media only screen and (min-width: 768px) {
+  .donate .project-section img.pull-right, .donate .project-section img.pull-left {
+    width: 200px;
+    height: auto;
+  }
+  .donate .project-section img.pull-right.pull-right, .donate .project-section img.pull-left.pull-right {
+    margin-left: 20px;
+  }
+  .donate .project-section img.pull-right.pull-left, .donate .project-section img.pull-left.pull-left {
+    margin-right: 20px;
+  }
+}
+.donate .project-sign {
+  margin-top: 20px;
+  text-align: center;
+}
+.donate .project-sign img {
+  width: 100%;
+  height: auto;
+}
+@media only screen and (min-width: 768px) {
+  .donate .project-sign img {
+    width: 500px;
+  }
+}
+.donate .project-sign .caption {
+  margin-top: 0.2em;
+  font-size: 0.8em;
+}
+.donate .justin {
+  max-width: 100%;
+  margin-bottom: 1em;
+}
+
+.how {
+  padding-bottom: 40px;
+}
+.how .top-section {
+  background-image: url(/images/how_top.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.how h2 {
+  margin-top: 60px;
+}
+.how .how-step {
+  margin-top: 60px;
+}
+.how .how-step .how-step-image img {
+  width: 200px;
+  height: auto;
+}
+
+.construction p {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 3em;
+}
+
+.about .top-section, .donate .top-section {
+  background-color: #32444f;
+}
